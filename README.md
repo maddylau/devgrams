@@ -1,0 +1,1 @@
+devgrams: code shortcuts
