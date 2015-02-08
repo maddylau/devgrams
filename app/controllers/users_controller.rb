@@ -1,4 +1,5 @@
 class UsersController < ApplicationController
-  def directory
+  def index
+    @users = User.all
   end
 end
