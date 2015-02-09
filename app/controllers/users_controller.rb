@@ -7,7 +7,7 @@ class UsersController < ApplicationController
   def show
     @user = User.find_by_id(params[:id])
     @article = Article.find_by_id(params[:id])
-    # @article = Article.where(user_id: 1)
+    # @match = Article.where(user_id: @user)
   end
 
 end
